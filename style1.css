@@ -1,0 +1,281 @@
+header{
+    background-image: url('images/bg2.jpg');
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+}
+@keyframes effect {
+    0% {
+        background: linear-gradient(to right,hotpink,pink,hotpink);
+        -webkit-background-clip: text;
+    }
+    50% {
+        background: linear-gradient( to top,yellow,red,lightgreen);
+        -webkit-background-clip: text;
+    }
+    100% {
+        background: linear-gradient( to right,green,lightgreen,lawngreen);
+        -webkit-background-clip: text;
+    }
+}
+header h1{
+    animation:effect 5s linear infinite;
+    border: none;
+    background-image: none;
+    font-size:40px;
+    font-weight: bold;
+    font-style: italic;
+}
+header .heading{
+    text-align: center;
+    font-family: cursive;
+    float: left;
+    width:100%;
+    margin-left: 100px;
+    color: transparent;
+}
+header .navigation{
+    font-family: cursive;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 40px;
+    font-size:20px;
+}
+header .navigation a{
+    text-decoration: none;
+    color:black;
+}
+header .navigation a:hover{
+    color:hotpink;
+}
+marquee p{
+    color: transparent;
+    animation:effect 5s  infinite;
+    font-family: cursive;
+    font-size: 15px;
+}
+hr{
+    border:1px solid blue;
+}
+@keyframes example {
+    50%  { left:-200px; top:0px;}
+  }
+.about{
+    background-image: url('images/bg2.jpg');
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.about .but{
+    border: none;
+    background: linear-gradient(to right,hotpink,pink,hotpink);
+    border-radius: 30px;
+    color:white;
+    margin: 50px;
+    left:0px;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    position: relative;
+    animation-name:example;
+    animation-duration: 10s ;
+}
+.about .but:hover{
+    background: linear-gradient(to right,darkblue,blue,skyblue,blue,darkblue); 
+}
+.courselist{
+    background-image: url('images/bg4.jpg');
+    background-repeat: repeat;
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 10px;
+}
+.courselist h1{
+    border: none;
+    background-image: none;
+}
+.all{
+    background-image: url('images/bg2.jpg');
+    background-repeat: repeat;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    border-radius: 10px;
+    width:70%;
+}
+.all p{
+    color: white;
+    font-family: cursive;
+    font-size: 15px;
+}
+.coursedetails{
+    border: 3px dashed blue;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 10%;
+    background-image: url('images/bg4.jpg');
+}
+.but{
+    padding: 20px;
+    background: url('images/bg2.jpg');
+    width:120%;
+    border:none;
+    border-radius: 20px;
+    font-family: cursive;
+    color:white;
+    margin: 15px;
+    width:200px;
+    text-align: center;
+}
+.but:hover{
+    background:linear-gradient(to right,hotpink,pink,hotpink) ;
+}
+.coursecontent{
+    padding: 2%;
+    margin: 2%;
+    background-image: url('images/bg4.jpg');
+    border-radius: 10px;
+}
+.coursecontent p{
+    font-family: cursive;
+    text-align: justify;
+}
+.coursecontent ol{
+    text-align: justify;
+    font-family: cursive;
+}
+
+.bundel{
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    font-family: cursive;
+    width:95%;
+    background-image: url('images/bg4.jpg');
+    padding: 2%;
+    margin: 2%;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    background-image: url('images/bg2.jpg');
+    margin: 2%;
+    width:95%;
+    border-radius: 10px;
+}
+.Meet{
+    border: 2px solid blue;
+    padding: 2%;
+    margin: 2%;
+    padding-left: 10%;
+    border-radius: 20px;
+    font-family: cursive;
+    background-image: url('images/bg4.jpg');
+}
+.Meet img{
+    float: left;
+}
+.review{
+    display: flex;
+    justify-content: space-around;
+}
+.r1{
+    padding: 2%;
+    margin: 2%;
+    width:50%;
+    justify-content: center;
+    border-radius: 20px;
+    border:none;
+    background-image: url('images/bg4.jpg');
+    color:darkblue;
+}
+.r1 img{
+    border-radius: 500px;
+    float: left;
+    border:1px solid black;  
+}
+.r1 h3{
+    float: right;
+}
+footer{
+    background-image: url('images/bg2.jpg');
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+footer h1{
+    border: none;
+    background: none;
+
+}
+footer .but{
+    background-image: url('images/bg4.jpg');
+    color: black;
+}
+.img1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.img1 ul{
+    padding: 2%;
+    margin: 2%;
+    font-family: cursive;
+    font-size: 20px;
+}
+.img1 p{
+    padding: 2%;
+    margin: 2%;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: justify;
+    width:50%
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: -20px;
+    left:-100px;
+    border: 1px solid blue;
+  }
+  .image2 {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    border: 1px solid blue;
+  }
+  .allcourses{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+ .cor {
+    padding: 2%;
+    margin: 2%;
+    border:1px solid black;
+    width:30%;
+    border-radius: 20px;
+ }
+ .cor button{
+    background:url('images/bg2.jpg');
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width:200px
+ }
+ .cor button:hover{
+    background: linear-gradient(to right,hotpink,pink,hotpink);
+ }
+
+  

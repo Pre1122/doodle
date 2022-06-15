@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Separatecourse</title>
+       <style>
+      
+      .reg{
+    text-align: center;
+    font-size:20px;
+    font-family: cursive
+}
+.butt{
+    width:60%;
+    margin-left: 20%;
+    padding: 20px;
+    background: white;
+    font-size:20px;
+    font-family: cursive
+}
+.butt:hover{
+        background: linear-gradient(to right,hotpink,white,hotpink);
+    transition-duration: 1s
+}
+
+input[type="text"],input[type="password"],input[type="email"]{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    background: white;   
+}
+
+input[type="text"]:focus,input[type="password"]:hover{
+    background: linear-gradient(to right,hotpink,white,hotpink);
+}
+
+.tex{
+     width: 90%;
+    padding: 10px;
+    margin: 10px;
+    background: white;  
+}
+
+form{
+    max-width:600px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    background-image: url('images/bg4.jpg');
+}
+form p{
+   font-size:20px;
+    font-family: cursive;
+    text-align: center;
+}
+.cc{
+    text-align: center;
+    border: none;
+    padding: 20px;
+    background-image: url('images/bg4.jpg');
+    width:50%;
+    margin: 100px;
+    justify-content: center;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+       </style>
+       <link rel="stylesheet" href="style1.css"/>
+    </head>
+    <body>
+       <!--Start of heading-->
+       <header>
+        <div class="navigation">
+            <a href="index.html">Home</a>
+            <a href="1about.html">About</a>
+            <a href="2courses.html">AllCourses</a>
+            <a href="4register.html">Register</a>
+            <a href="3contact.html">Contact</a>
+        </div>
+    </header>
+    
+    <!--End of heading--> 
+    <h1 style="padding:20px">Thank You for Showing Interest in our Workshop</h1>
+    <div class="cc">
+        <h2>Email us on</h2>
+        <p>Doodleworkshop@gmail.com</p>
+    </div>
+    <form action="">
+        <p>Contact Form</p>
+    <label for="name"><b>Enter your name</b></label>
+    <input type="text" id="name" placeholder="enter your name" />
+    <br/>
+    <label for="email"><b>Enter your email</b></label>
+    <input type="email" id="email"  placeholder="enter your email" />
+        <br/>
+        <label for="Subject"><b>Enter your Subject</b></label>
+    <input type="text" id="subject"  placeholder="enter your Subject" />
+        <br/>
+
+    <p><b>Comment or message</b></p>
+    <textarea class="tex" row="10" cols="40" placeholder="Enter your message"></textarea>       
+    
+</form>
+<button class="butt">send</button>
+<br/>
+<br/>
+<br/>
+
+     <!--Contact and feebback form-->
+     <footer>
+        <h1>Have a Question or feedback?</h1>
+        <h2>Click on the form below</h2>
+        <a href="3contact.html"><button class="but"><b>Contact</b></button></a>
+        <hr/>
+        <p>Copyright @Preethi</p>
+        <p>Powered by doodle art workshop</p>
+    </footer>
+
+    <!--end Contact and feebback form-->
+    </body>
+</html>
